@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Driver-Drowsiness-Detection-System
 
 ## Overview
@@ -113,3 +114,6 @@ This project helped me understand the basics of computer vision, facial landmark
 ## Author
 
 Paruchuri Venkatesh
+=======
+# Driver-Drowsiness-Detection
+>>>>>>> 623d16ceb874a955522f069d994e89470fba63c0
