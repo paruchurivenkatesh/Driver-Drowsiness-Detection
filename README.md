@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Driver-Drowsiness-Detection-System
 
 ## Overview
