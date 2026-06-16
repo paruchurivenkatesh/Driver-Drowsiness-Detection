@@ -64,9 +64,66 @@ pip install -r requirements.txt
 
 ## Running the Project
 
-Run the following command:
+Follow the steps below to run the Driver Drowsiness Detection System on your computer.
 
+### Step 1: Open the Project Folder
+
+Open VS Code and navigate to the project folder:
+
+```bash
+cd Driver-Drowsiness-Detection
+```
+
+### Step 2: Install Required Dependencies
+
+Install all required Python libraries using:
+
+```bash
+pip install -r requirements.txt
+```
+
+If any dependency is missing, install them manually:
+
+```bash
+pip install mediapipe==0.10.14
+pip install opencv-python
+pip install numpy
+pip install playsound==1.2.2
+```
+
+### Step 3: Run the Application
+
+Execute the following command in the terminal:
+
+```bash
 python main.py
+```
+
+### Step 4: Start Monitoring
+
+After running the program:
+
+* The webcam will open automatically.
+* The system will detect the driver's face and eyes in real time.
+* Eye movements will be continuously monitored using facial landmarks.
+* The current status will be displayed on the screen.
+
+### Drowsiness Detection
+
+If the driver's eyes remain closed for a few seconds:
+
+* A warning message saying **"DROWSINESS ALERT!"** will appear on the screen.
+* An alarm sound will be played to alert the driver.
+* The system will continue monitoring until the driver's eyes reopen.
+
+### Exit the Application
+
+To close the application:
+
+* Press the **ESC** key on the keyboard, or
+* Click the close button on the webcam window.
+
+The webcam will stop and the program will terminate safely.
 
 After running the program, the webcam will start automatically.
 
