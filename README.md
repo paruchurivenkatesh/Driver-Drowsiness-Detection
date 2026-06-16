@@ -125,10 +125,6 @@ To close the application:
 
 The webcam will stop and the program will terminate safely.
 
-After running the program, the webcam will start automatically.
-
-The system will continuously monitor the driver's eyes. If the eyes remain closed for a few seconds, a warning message will be displayed and an alarm sound will be played.
-
 ---
 
 ## How It Works
